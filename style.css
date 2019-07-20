@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Bahan */
+.break {
+    clear: both;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.page-heading {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #e67e22;
+    border-left: 5px double #e67e22;
+    padding: 0 20px;
+}
+
+.spacing {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar-flat {
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    padding: 0 30px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    top: -55px;
+}
+
+/* Konten */
+.promote-content {
+    margin-bottom: 5%;
+}
+
+.promote-section {
+    box-shadow: 1px 1px 10px rgba(255, 183, 119, 0.3);
+    border-radius: 10px;
+    padding: 15px 15px 1px 15px;
+    /* border: 1px solid #ffb777; */
+}
+
+.promote-section>h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #e67e22;
+}
+
+.promote-section>p {
+    font-size: 17px;
+}
+
+.bp-section {
+    padding: 0 !important;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.bp-section>img {
+    border-radius: 10px 10px 0 0;
+}
+
+.bp-section .bp-title {
+    color: #e67e22;
+}
+
+.bp-section .more {
+    width: 100%;
+    padding: 9px;
+    background: #e67e22;
+    border: none;
+    margin-top: 25px;
+}
+
+.blog {
+    margin: 5% auto;
+}
+
+#card-background {
+    box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10% auto;
+    background: white;
+}
+
+.avatar {
+    padding: 12px 0 0 10px;
+}
+
+.avatar>img {
+    width: 100%;
+    box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.caption {
+    padding: 30px 20px 10px 20px;
+}
+
+.caption>h1 {
+    font-size: 25px;
+    color: #343A40;
+}
+
+.caption>.status {
+    font-size: 17px;
+    color: #535c68;
+}
+
+.caption>p {
+    font-size: 17px;
+    color: #343A40;
+}
+
+.line {
+    width: 35%;
+    height: 3px;
+    background: grey;
+    margin: 15px 0;
+}
+
+.footer {
+    background: #343A40;
+    padding: 20px 5% 1px 5%;
+    margin-top: 5%;
+}
+
+.footer>p {
+    font-size: 17px;
+    color: white;
+}
